@@ -17,6 +17,14 @@ public class Test {
 
     };
 
+    public void abc(
+            int a, //a bir intdir
+            int k  // dasda
+    )
+    {
+
+    }
+
 
     /**
      *
@@ -56,5 +64,14 @@ public class Test {
          */
         return new ArrayList<>();
     }
+    public <T> void methodName() {
+
+
+    };
+    public <T extends Integer> T methodName2() {
+        // Metotun gövdesi buraya yazılır.
+        return null; // Geri dönüş değeri
+    };
+
 
 }
